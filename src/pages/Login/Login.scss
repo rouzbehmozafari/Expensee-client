@@ -1,0 +1,30 @@
+.Login{
+    text-align: center;
+    h1{
+        padding: 90px 0 80px 0;
+        font-size: $h1FontSize;
+        font-weight: 400;
+    }
+}
+
+.LoginForm {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        padding-bottom: 25px;
+    }
+    button{
+        margin: 10px 0 75px 0;
+    }
+}
+.AuthForm{
+    text-align: center;
+    p{
+        padding-bottom: 20px;
+    }
+    button{
+        margin: 20px 0 141px 0;
+    }
+}
