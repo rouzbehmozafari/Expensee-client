@@ -1,5 +1,5 @@
 export async function submitUserForm(route, data) {
-    const response = await fetch(`https://expensee-client.netlify.app/user/${route}`, {
+    const response = await fetch(`https://expensee-server.herokuapp.com/user/${route}`, {
         method: 'POST',
         mode: 'cors',
         body: JSON.stringify(data),

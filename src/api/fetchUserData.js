@@ -1,5 +1,5 @@
 export async function fetchUserData() {
-    const response = await fetch(`https://expensee-client.netlify.app/allUserData`, {
+    const response = await fetch(`https://expensee-server.herokuapp.com/allUserData`, {
         method: 'get',
         credentials: "include",
         mode: 'cors',

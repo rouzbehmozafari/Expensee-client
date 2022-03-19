@@ -1,5 +1,5 @@
 export async function isAuthenticated() {
-    const response = await fetch(`https://expensee-client.netlify.app/user/authenticationCheck`, {
+    const response = await fetch(`https://expensee-server.herokuapp.com/user/authenticationCheck`, {
         method: 'get',
         credentials: "include",
         mode: 'cors',
