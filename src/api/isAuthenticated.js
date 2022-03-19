@@ -1,5 +1,5 @@
 export async function isAuthenticated() {
-    const response = await fetch(`http://localhost:9000/user/authenticationCheck`, {
+    const response = await fetch(`https://expensee-client.netlify.app/user/authenticationCheck`, {
         method: 'get',
         credentials: "include",
         mode: 'cors',

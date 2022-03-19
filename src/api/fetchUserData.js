@@ -1,5 +1,5 @@
 export async function fetchUserData() {
-    const response = await fetch(`http://localhost:9000/allUserData`, {
+    const response = await fetch(`https://expensee-client.netlify.app/allUserData`, {
         method: 'get',
         credentials: "include",
         mode: 'cors',
