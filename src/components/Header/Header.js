@@ -11,7 +11,7 @@ const Header = (props) => {
 
     const logout = () => {
         removeCookie("Token")
-        window.location.href = "http://rouz-app.netlify.app/";
+        window.location.href = "https://expensee-client.netlify.app/";
     }
 
     return (

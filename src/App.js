@@ -61,7 +61,7 @@ function App() {
   // fetch user data
   const [isUserLoggedIn, setIsUserLoggedIn] = useState(3)
 
-  const url = 'http://rouz-app.netlify.app/'
+  const url = 'https://expensee-client.netlify.app/'
 
   //Get Userdata from Database to show account balance
   useEffect(() => {
