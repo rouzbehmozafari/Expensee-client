@@ -73,9 +73,9 @@ const AddTransaction = (props) => {
                         <option value="Sparen">Sparen</option>
                         <option value="Sonstiges">Sonstiges</option>
                     </select>
-                    <input type="text" required className="buttonBase transactionInput" placeholder="Beschreibung" className="buttonBase transactionInput" onChange={e => setBeschreibung(e.target.value)} />
-                    <input type="number" required className="buttonBase transactionInput" placeholder="Geldbetrag" className="buttonBase transactionInput" onChange={e => setGeldbetrag(e.target.value)} />
-                    <input type="datetime-local" defaultValue={temp} className="buttonBase transactionInput" placeholder="Datum" className="buttonBase transactionInput" onChange={e => setDatum(e.target.value)} />
+                    <input type="text" required className="buttonBase transactionInput" placeholder="Beschreibung"  onChange={e => setBeschreibung(e.target.value)} />
+                    <input type="number" required className="buttonBase transactionInput" placeholder="Geldbetrag"  onChange={e => setGeldbetrag(e.target.value)} />
+                    <input type="datetime-local" defaultValue={temp} className="buttonBase transactionInput" placeholder="Datum"  onChange={e => setDatum(e.target.value)} />
                     <input type="submit" className="buttonBase " value="Abschicken" onClick={sendTransactionForm} />
                 </form>
             </div>
